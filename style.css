@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:monospace;
+}
+
+body::-webkit-scrollbar{
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track{
+    background-color: black;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #5A09E8;
+}
+
+.header{
+    padding: 15px;
+    border-bottom: 3px solid #0f1d3e;
+    background-color: black;
+}
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+}
+
+
+h1{
+    color: #7b07ff;
+    font-weight: 800px;
+}
+
+ul{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+li{
+    color: #ffffff;
+}
+
+
+.fundo{
+    background-color: black;
+    padding: 16%;
+    display: flexbox;
+    align-items: center;
+}
+
+.caixa-formulario{
+    background-color: rgb(255, 255, 255);
+    padding: 60px 100px;
+    border-radius: 10px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-color: black;
+    box-shadow: 0px 0px 20px 1px rgba(123, 0, 255, 0.5);
+}
+
+.caixa-formulario h2{
+    color:  #482585;
+    margin-bottom: 10px;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.campo input{
+    padding: 7px;
+    border-radius: 4px;
+    border: 2px solid #5616c5;
+    color: black;
+    outline: none;
+}
+
+
+.campo label{
+    color: #482585;
+    margin: 15px 0;
+}
+
+.caixa-formulario button{
+    margin-top: 20px;
+    width: 120px;
+    color:white;
+    background-color: #482585;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.caixa-formulario button:hover{
+    opacity: 0.8;
+}
+
+.caixa{
+    margin: -15%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.footer {
+    padding: 45px 0;
+    background-color: rgb(46, 0, 132);
+}
+
+.footer .container{
+    justify-content: center;
+}
+
+.footer p{
+    color: white;
+}
+
+li a{
+  text-decoration: none;
+  color: #790bff;  
+  cursor: pointer;
+  transition: color .2s linear;
+}
+
+li a:hover{
+    color: #274169;
+}
